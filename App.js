@@ -16,7 +16,7 @@ export default function App() {
 
 
   const fetchWeather = async(lat, lon) => { 
-    await fetch("https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid=ecf5553cc5b15522aea8026824cb8085&units=metric").
+    await fetch("Your API Key").
       then((response) => response.json()).
       then((json) => {
         console.log(json);
